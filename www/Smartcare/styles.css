@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #af141f;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header {
+    overflow: hidden;
+    background-color: #082680;
+    padding: 20px 10px;
+  }
+
+  
+  .header i.ic-logo {
+    background-size: 200px 150px;
+    background-position: 0 -42px;
+    width: 147px;
+    height: 48px;
+    cursor: pointer;
+    display: block;
+    background-repeat: no-repeat;
+  }
+
+  .header [class=ic-], .header [class^=ic] {
+    background-image: url(https://img.tgdd.vn/imgt/f_png,s_800x600,quality_75/https://cdn.tgdd.vn/mwgcart/tan-tam/cdn/images/common/icon_common2x_v1.png) ;
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    display: inline-block;
+    line-height: 30px;
+  }
+  
+  .header-left {
+    align-items: center;
+    display: flex;
+    float: left;
+  }
+
+  .header-menu {
+    margin-left: 30px;
+  }
+
+  .menulist {
+    align-items: center;
+    display: flex;
+    list-style-type: disc;
+  }
+
+  .menulist>li {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 60px;
+    position: relative;
+  }
+
+  .header-right {
+    float: right;
+  }
